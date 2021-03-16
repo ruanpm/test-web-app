@@ -39690,7 +39690,7 @@ l="application/json; charset=UTF-8"
 k="authorization"
 s=3
 return P.z(p.ghv(p).a.f7(0,!1),$async$kq)
-case 3:q=n.al([m,l,k,b],o,o)
+case 3:q=n.al([m,l,k,b,"Access-Control-Allow-Methods","*","Access-Control-Allow-Origin","*","Access-Control-Allow-Headers","*"],o,o)
 s=1
 break
 case 1:return P.w(q,r)}})
