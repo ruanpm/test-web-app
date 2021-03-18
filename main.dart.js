@@ -9308,9 +9308,9 @@ case 2:F.amG()
 return P.v(null,r)}})
 return P.w($async$amH,r)}},T={
 Lb:function(a){var s,r="paralelo-api.herokuapp.com"
-switch(C.t0){case C.t0:s=P.avV("http",r,a,null)
+switch(C.t0){case C.zG:s=P.avV("http",r,a,null)
 break
-case C.zG:s=P.avV("https",r,a,null)
+case C.t0:s=P.avV("https",r,a,null)
 break
 default:s=null}return s},
 HW:function HW(a){this.b=a},
@@ -78087,8 +78087,8 @@ C.nS=new S.x7("GestureRecognizerState.possible")
 C.zF=new S.x7("GestureRecognizerState.defunct")
 C.bv=new G.HV("GrowthDirection.forward")
 C.c4=new G.HV("GrowthDirection.reverse")
-C.t0=new T.HW("HTTP_PROTOCOL_SECURITY.HTTP")
-C.zG=new T.HW("HTTP_PROTOCOL_SECURITY.HTTPS")
+C.zG=new T.HW("HTTP_PROTOCOL_SECURITY.HTTP")
+C.t0=new T.HW("HTTP_PROTOCOL_SECURITY.HTTPS")
 C.c5=new T.r3("HeroFlightDirection.push")
 C.c6=new T.r3("HeroFlightDirection.pop")
 C.nT=new E.xb("HitTestBehavior.deferToChild")
