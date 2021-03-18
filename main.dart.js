@@ -39387,7 +39387,7 @@ k="application/json; charset=UTF-8"
 j="Authorization"
 s=3
 return P.r(p.ghd(p).a.f2(0,!1),$async$kh)
-case 3:q=m.aj([l,k,j,b,"Access-Control-Expose-Headers","*","Access-Control-Allow-Methods","*","Access-Control-Allow-Origin","*","Access-Control-Allow-Headers","*","Accept","*/*","Connection","keep-alive"],o,o)
+case 3:q=m.aj([l,k,j,b,"Accept","*/*"],o,o)
 s=1
 break
 case 1:return P.v(q,r)}})
